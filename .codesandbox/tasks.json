@@ -11,18 +11,24 @@
   "tasks": {
     "dev": {
       "name": "Start Dev Server",
-      "command": "yarn dev",
-      "runAtStart": true
+      "command": "npm run dev",
+      "runAtStart": true,
+      "preview": {
+        "port": 3000
+      }
     },
     "build": {
       "name": "Build",
-      "command": "yarn build",
+      "command": "npm run build",
       "runAtStart": false
     },
     "install": {
       "name": "Install Dependencies",
       "command": "npm install",
-      "restartOn": { "files": ["package-lock.json"] }
+      "restartOn": {
+        "files": ["package-lock.json"],
+        "branch": false
+      }
     }
   }
 }

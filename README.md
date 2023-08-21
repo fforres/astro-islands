@@ -1,5 +1,7 @@
 # Welcome to [Astro](https://astro.build)
 
+[Configuration](https://codesandbox.io/docs/projects/learn/setting-up/tasks) has been added to optimize it for [CodeSandbox](https://codesandbox.io/p/dashboard).
+
 [![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/github/codesandbox/codesandbox-template-astro/main)
 
 > 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
@@ -41,7 +43,7 @@ All commands are run from the root of the project, from a terminal:
 
 ## 👀 Want to learn more?
 
-- [CodeSandbox Projects — Docs](https://docs.codesandbox.io)
+- [CodeSandbox — Docs](https://docs.codesandbox.io)
 - [CodeSandbox — Discord](https://discord.gg/Ggarp3pX5H)
 - [Astro — GitHub](https://github.com/withastro/astro)
 - [Astro — Docs](https://docs.astro.build)
